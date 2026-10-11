@@ -73,12 +73,14 @@ setup(
     # entry_points={
     #     'console_scripts': [
     #         'controller_node = robocon_2027_controller.controller_node:main',
+    #         'keyboard_teleop = robocon_2027_webots.keyboard_teleop:main',
     #     ],
     # },
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'tr_webots_driver = robocon_2027_webots.tr_webots_driver:main',
+            'keyboard_teleop = robocon_2027_webots.keyboard_teleop:main',
         ],
     },
 )

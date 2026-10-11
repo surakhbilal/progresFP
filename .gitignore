@@ -12,4 +12,7 @@ __pycache__/
 *.swp
 *.swo
 *.tmp
-*.log
+*.log# ROS 2 / colcon build artifacts
+build/
+install/
+log/

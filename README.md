@@ -81,7 +81,7 @@ source install/setup.bash
 ## 5. Jalankan simulasi + RViz
 
 ```bash
-ros2 launch ./src/itsr_simulasi-2027/launch/bringup.launch.py
+ros2 launch ./src/itsr_simulasi-2027_LATIHAN2/launch/bringup.launch.py
 ```
 
 Ini akan membuka Webots (dunia `simple_arena.wbt`) dan RViz sekaligus; posisi
